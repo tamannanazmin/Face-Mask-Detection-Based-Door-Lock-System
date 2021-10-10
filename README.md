@@ -43,7 +43,7 @@ the connection is given below:
 #### The demo of this Project
 https://youtu.be/d0eqqvyw9vE
 # Language: 
-Python
+Python and Arduino.
 # Library:
 tensorflow, keras, imutils, cv2, numpy, time, os, serial
 # Hardware:
