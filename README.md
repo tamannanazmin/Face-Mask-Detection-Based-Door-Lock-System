@@ -26,19 +26,19 @@ Finally, you will add Serial Command to the facemask detection algorithm that wi
 Remember you have to connect your Arduino with LCD, servo, and buzzer before running the code. 
 the connection is given below:
 
-###### For LCD 
-you have to connect the RS pin with Arduino digital pin 7
-you have to connect the EN pin with Arduino digital pin 8
-you have to connect the D4 pin with Arduino digital pin 9
-you have to connect the D5 pin with Arduino digital pin 10
-you have to connect the D6 pin with Arduino digital pin 11
-you have to connect the D7 pin with Arduino digital pin 12
+#### For LCD 
+###### you have to connect the RS pin with Arduino digital pin 7
+###### you have to connect the EN pin with Arduino digital pin 8
+###### you have to connect the D4 pin with Arduino digital pin 9
+###### you have to connect the D5 pin with Arduino digital pin 10
+###### you have to connect the D6 pin with Arduino digital pin 11
+###### you have to connect the D7 pin with Arduino digital pin 12
 
-###### For Servo 
-you have to connect the servo with Arduino digital pin 6
+#### For Servo 
+###### you have to connect the servo with Arduino digital pin 6
 
-###### For Buzzer
-you have to connect the Buzzer with Arduino digital pin 13
+#### For Buzzer
+###### you have to connect the Buzzer with Arduino digital pin 13
 
 # Language: 
 Python
