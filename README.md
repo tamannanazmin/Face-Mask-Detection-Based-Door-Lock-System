@@ -40,6 +40,8 @@ the connection is given below:
 #### For Buzzer
 ###### you have to connect the Buzzer with Arduino digital pin 13
 
+#### The demo of this Project
+https://youtu.be/d0eqqvyw9vE
 # Language: 
 Python
 # Library:
