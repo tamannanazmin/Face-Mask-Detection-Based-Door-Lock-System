@@ -10,7 +10,7 @@ For building face mask based door system, I used machine learning model using Ke
 
 
 
-# How to run
+# How to run the project
 
 #### Step 1
 You have to run 'train_mask_detector.py' file in spyder or Jupyter Notebook to create a model named 'mask_detector.model' or you can use my previous trained model which I have provided in GitHub.
@@ -20,7 +20,7 @@ For training 'train_mask_detector.py' file you need a dataset having two folders
 You have to run ‘myDetect.py’ file in spyder. For running this file you need 'res10_300x300_ssd_iter_140000.caffemodel',  'deploy.prototxt' and 'mask_detector.model' file which I have provided in the Github and you must connect your webcam with your PC but if you are using Laptop then you don't need any webcam.
 If you run everything successfully then your camera will be opened and you can test if it works with the mask or not.
 
-# Step 3
+#### Step 3
 Finally, you will add Serial Command to the facemask detection algorithm that will order the Arduino to send commands to the servo, buzzer, and LCD based on the state of detection. I have commented on the Arduino code in the myDetect.py file. If you want to use Arduino then first, you have to run and compile 'msdCode.ino' file on the Arduino board using Arduino Software. Next,  you have to connect your Arduino with your pc or laptop using a USB cable and then you have to comment out the Arduino code from  'myDetect.py' file and run the file. 
 
 Remember you have to connect your Arduino with LCD, servo, and buzzer before running the code. 
