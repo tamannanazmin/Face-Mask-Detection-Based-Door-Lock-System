@@ -41,7 +41,7 @@ the connection is given below:
 ###### you have to connect the Buzzer with Arduino digital pin 13
 ## Diagram
 
-![136710014-dbc416f6-fb1a-4d56-86ea-39deeefe1cfc](https://user-images.githubusercontent.com/42768952/156630061-46a6d22b-c5d2-42b1-ab48-eb5e6cc0b8bc.png)
+![168356358_471577070698108_6773213453901222133_n](https://user-images.githubusercontent.com/42768952/156630123-83648407-114e-445d-a410-9d34470bba4e.png)
 
 #### The demo of this Project
 https://youtu.be/d0eqqvyw9vE
