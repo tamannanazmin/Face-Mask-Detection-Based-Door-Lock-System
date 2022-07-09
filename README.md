@@ -43,8 +43,10 @@ the connection is given below:
 
 ![168356358_471577070698108_6773213453901222133_n](https://user-images.githubusercontent.com/42768952/156630123-83648407-114e-445d-a410-9d34470bba4e.png)
 
-#### The demo of this Project
+#### The Demo of this Project
 https://youtu.be/d0eqqvyw9vE
+#### The Tutorial of this Project
+https://youtu.be/hot7EHsam_Y
 # Language: 
 Python and Arduino.
 # Library:
