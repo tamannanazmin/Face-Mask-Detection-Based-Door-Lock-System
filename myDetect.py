@@ -10,10 +10,10 @@ import cv2
 import os
 import time 
 #For arduino connection
-#import serial
+import serial
 
 #For arduino connection
-#arduino = serial.Serial('COM3', 9600)
+arduino = serial.Serial('COM3', 9600)
                              
 lowConfidence = 0.75
 
@@ -60,12 +60,12 @@ while True:
         if label =="Mask":
             print("ACCESS GRANTED")
             #For arduino connection
-            #arduino.write(b'H')
+            arduino.write(b'H')
            
         else:
             print("ACCESS DENIED")
             #For arduino connection
-            #arduino.write(b'L')
+            arduino.write(b'L')
             
         label = "{}: {:.2f}%".format(label, max(mask, withoutMask) * 100)
         cv2.putText(frame, label, (startX, startY - 10),cv2.FONT_HERSHEY_SIMPLEX, 0.45, color, 2)
